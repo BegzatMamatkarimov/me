@@ -96,7 +96,7 @@ header.solid{background:rgba(11,16,32,.88);backdrop-filter:blur(12px);box-shadow
 .badge{position:absolute;top:-12px;right:18px;background:var(--gold);color:#201500;font-size:.75rem;font-weight:800;padding:4px 12px;border-radius:999px}
 .tour h3{font-size:1.25rem}
 .price{display:flex;align-items:baseline;gap:10px}
-.price b{font-size:2rem}
+.price b{font-size:1.8rem}
 .price s{color:var(--muted)}
 .tour ul{list-style:none;color:var(--muted);font-size:.93rem;display:grid;gap:6px;flex:1}
 .tour li::before{content:"✓ ";color:var(--green);font-weight:800}
@@ -296,24 +296,24 @@ footer{padding:30px 0 90px;text-align:center;color:var(--muted);font-size:.88rem
   <div class="wrap">
     <p class="eyebrow">Туры и цены</p>
     <h2>Готовые пакеты</h2>
-    <p class="lead">Цены на человека. Дети до 6 лет — бесплатно. Нажмите кнопку — мы откроем WhatsApp с готовым сообщением.</p>
+    <p class="lead">Цены в тенге (₸) на человека. Дети до 6 лет — бесплатно. Нажмите кнопку — мы откроем WhatsApp с готовым сообщением.</p>
     <div class="tours">
       <div class="tour rv">
         <h3>Эконом · 1 день</h3>
-        <div class="price"><b>$49</b><s>$59</s></div>
+        <div class="price"><b>25 000 ₸</b><s>30 000 ₸</s></div>
         <ul><li>Групповая экскурсия</li><li>Входные билеты</li><li>Русскоговорящий гид</li></ul>
-        <a class="btn wa" data-wa="Здравствуйте! Хочу забронировать тур «Эконом · 1 день» ($49).">Забронировать</a>
+        <a class="btn wa" data-wa="Здравствуйте! Хочу забронировать тур «Эконом · 1 день» (25 000 ₸).">Забронировать</a>
       </div>
       <div class="tour hot rv">
         <span class="badge">ХИТ −15%</span>
         <h3>Комфорт · 3 дня</h3>
-        <div class="price"><b>$229</b><s>$269</s></div>
+        <div class="price"><b>115 000 ₸</b><s>135 000 ₸</s></div>
         <ul><li>Анкара + Каппадокия</li><li>Отель 4★, завтраки</li><li>Трансфер из аэропорта</li><li>Индивидуальный гид</li></ul>
-        <a class="btn wa" data-wa="Здравствуйте! Хочу забронировать тур «Комфорт · 3 дня» ($229).">Забронировать</a>
+        <a class="btn wa" data-wa="Здравствуйте! Хочу забронировать тур «Комфорт · 3 дня» (115 000 ₸).">Забронировать</a>
       </div>
       <div class="tour rv">
         <h3>VIP · индивидуальный</h3>
-        <div class="price"><b>$119</b><s>/день</s></div>
+        <div class="price"><b>60 000 ₸</b><s>/день</s></div>
         <ul><li>Личный авто и гид</li><li>Маршрут под вас</li><li>Фото/видео-сопровождение</li></ul>
         <a class="btn wa" data-wa="Здравствуйте! Интересует VIP-тур по Анкаре, хочу обсудить маршрут.">Обсудить</a>
       </div>
@@ -368,7 +368,7 @@ footer{padding:30px 0 90px;text-align:center;color:var(--muted);font-size:.88rem
       <h2>Свяжитесь с нами</h2>
       <p class="lead" style="margin-bottom:0">Отвечаем в WhatsApp ежедневно с 08:00 до 23:00 (по Анкаре).</p>
       <div class="contacts">
-        <a href="tel:+905550000000"><i>📞</i><span><b>+90 555 000 00 00</b><br><small style="color:var(--muted)">Позвонить</small></span></a>
+        <a href="tel:+905321234567"><i>📞</i><span><b>+90 532 123 45 67</b><br><small style="color:var(--muted)">Позвонить</small></span></a>
         <a data-wa="Здравствуйте! Хочу узнать про туры по Анкаре." href="#"><i>💬</i><span><b>Написать в WhatsApp</b><br><small style="color:var(--muted)">Ответим за 5 минут</small></span></a>
         <a href="https://maps.google.com/?q=Ankara+Ulus" target="_blank" rel="noopener"><i>📍</i><span><b>Анкара, район Улус</b><br><small style="color:var(--muted)">Открыть на карте</small></span></a>
       </div>
@@ -403,7 +403,7 @@ footer{padding:30px 0 90px;text-align:center;color:var(--muted);font-size:.88rem
 <script>
 (function(){
   // ВАЖНО: замените на реальный номер WhatsApp в международном формате без "+"
-  var WA_NUMBER = "905550000000";
+  var WA_NUMBER = "905321234567";
   var $ = function(s,c){return (c||document).querySelector(s)};
   var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
 
